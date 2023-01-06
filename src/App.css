@@ -13,6 +13,7 @@ textarea {
   justify-content: center;
   margin: 0 auto;
   resize: vertical;
+  
 }
 
 
@@ -24,7 +25,13 @@ textarea {
   justify-items:center;
   width: 50vw;
   
+  
 
+}
+
+#preview {
+  display: block;
+  overflow-wrap: break-word;
 }
 
 img {
