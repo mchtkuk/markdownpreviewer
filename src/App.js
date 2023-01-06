@@ -47,6 +47,7 @@ function App() {
       <textarea id="editor" onChange={(event) => {
         setText(event.target.value)
       }} value={text}></textarea>
+      <br></br>
       <div id='preview-border'>
       <div id="preview"
       dangerouslySetInnerHTML={{__html: marked(text),}}></div>
